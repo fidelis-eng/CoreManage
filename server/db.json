@@ -1,0 +1,494 @@
+{
+    "group_tasks": [
+      {
+        "id": 1,
+        "organization_id": 1,
+        "title": "Frontend Team",
+        "tasks": [
+          {
+            "id": 1,
+            "title": "Implement login UI",
+            "desc": "Develop the user login page using React and Chakra UI.",
+            "status": "In Progress",
+            "deadline": "2024-09-15T23:59:00+07:00",
+            "assigned_users": [
+              { "name": "Nicole Lopez", "id": 1 }
+            ],
+            "group_task_id": 1
+          },
+          {
+            "title": "Design registration page",
+            "desc": "Create a responsive registration page with input validation.",
+            "deadline": "2024-09-12T23:59:00+07:00",
+            "status": "To Do",
+            "assigned_users": [
+              { "name": "Adrienne Fox", "id": 2 }
+            ],
+            "group_task_id": 1
+          },
+          {
+            "title": "Set up OAuth UI",
+            "desc": "Design and integrate OAuth login buttons for Google and Facebook.",
+            "status": "In Progress",
+            "deadline": "2024-09-16T23:59:00+07:00",
+            "assigned_users": [
+              { "name": "Zachary Garcia", "id": 3 }
+            ],
+            "group_task_id": 1
+          },
+          {
+            "title": "Add password reset UI",
+            "desc": "Design forgot password and reset password forms.",
+            "status": "To Do",
+            "deadline": "2024-09-20T23:59:00+07:00",
+            "assigned_users": [
+              { "name": "Elizabeth Lopez", "id": 4 }
+            ],
+            "group_task_id": 1
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "organization_id": 1,
+        "title": "Backend Team",
+        "tasks": [
+          {
+            "title": "Create user authentication API",
+            "desc": "Develop login, registration, and JWT-based authentication APIs.",
+            "status": "To Do",
+            "deadline": "2024-09-25T23:59:00+07:00",
+            "assigned_users": [
+              { "name": "Amanda Foster", "id": 5 }
+            ],
+            "group_task_id": 2
+          },
+          {
+            "title": "Integrate data analytics API",
+            "desc": "Build APIs for capturing user activity and generating analytics data.",
+            "status": "In Progress",
+            "deadline": "2024-09-23T23:59:00+07:00",
+            "assigned_users": [
+              { "name": "Tiffany Hernandez", "id": 6 },
+              { "name": "Blue Linda", "id": 13 }
+            ],
+            "group_task_id": 2
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "organization_id": 1,
+        "title": "QA Team",
+        "tasks": [
+          {
+            "title": "Test authentication flow",
+            "desc": "Write and execute test cases for login, registration, and password reset features.",
+            "status": "In Progress",
+            "deadline": "2024-09-30T23:59:00+07:00",
+            "assigned_users": [
+              { "name": "Michael Pierce", "id": 7 }
+            ],
+            "group_task_id": 3
+          },
+          {
+            "title": "Test UI responsiveness",
+            "desc": "Ensure the frontend UI is responsive across various devices and screen sizes.",
+            "status": "To Do",
+            "deadline": "2024-10-05T23:59:00+07:00",
+            "assigned_users": [
+              { "name": "Zachary Bullock", "id": 8 }
+            ],
+            "group_task_id": 3
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "organization_id": 1,
+        "title": "Database Design Team",
+        "tasks": [
+          {
+            "title": "Normalize customer data schema",
+            "desc": "Analyze and normalize the existing customer data schema to reduce redundancy and improve data integrity.",
+            "status": "In Progress",
+            "deadline": "2024-10-15T23:59:00+07:00",
+            "assigned_users": [
+              { "name": "Emma Rodriguez", "id": 9 }
+            ],
+            "group_task_id": 4
+          },
+          {
+            "title": "Design index strategy",
+            "desc": "Develop an efficient indexing strategy for frequently queried columns to optimize query performance.",
+            "status": "To Do",
+            "deadline": "2024-10-20T23:59:00+07:00",
+            "assigned_users": [
+              { "name": "Liam Chen", "id": 10 }
+            ],
+            "group_task_id": 4
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "organization_id": 1,
+        "title": "Database Administration Team",
+        "tasks": [
+          {
+            "title": "Implement automated backups",
+            "desc": "Set up and test an automated backup system for all production databases, ensuring data recoverability.",
+            "status": "In Progress",
+            "deadline": "2024-10-10T23:59:00+07:00",
+            "assigned_users": [
+              { "name": "Sophia Patel", "id": 11 }
+            ],
+            "group_task_id": 5
+          },
+          {
+            "title": "Optimize query performance",
+            "desc": "Analyze slow-running queries and implement optimizations to improve overall database performance.",
+            "status": "To Do",
+            "deadline": "2024-10-25T23:59:00+07:00",
+            "assigned_users": [
+              { "name": "Noah Kim", "id": 12 }
+            ],
+            "group_task_id": 5
+          }
+        ]
+      }
+    ],
+    "tasks": [
+      {
+        "id": 1,
+        "title": "Implement login UI",
+        "desc": "Develop the user login page using React and Chakra UI.",
+        "status": "In Progress",
+        "deadline": "2024-09-15T23:59:00+07:00",
+        "assigned_users": [
+          { "name": "Nicole Lopez", "id": 1 }
+        ],
+        "group_task_id": 1,
+        "organization_id": 1
+      },
+      {
+        "id": 2,
+        "title": "Design registration page",
+        "desc": "Create a responsive registration page with input validation.",
+        "status": "To Do",
+        "deadline": "2024-09-12T23:59:00+07:00",
+        "assigned_users": [
+          { "name": "Adrienne Fox", "id": 2 }
+        ],
+        "group_task_id": 1,
+        "organization_id": 1
+      },
+      {
+        "id": 3,
+        "title": "Set up OAuth UI",
+        "desc": "Design and integrate OAuth login buttons for Google and Facebook.",
+        "status": "In Progress",
+        "deadline": "2024-09-16T23:59:00+07:00",
+        "assigned_users": [
+          { "name": "Zachary Garcia", "id": 3 }
+        ],
+        "group_task_id": 1,
+        "organization_id": 1
+      },
+      {
+        "id": 4,
+        "title": "Add password reset UI",
+        "desc": "Design forgot password and reset password forms.",
+        "status": "To Do",
+        "deadline": "2024-09-20T23:59:00+07:00",
+        "assigned_users": [
+          { "name": "Elizabeth Lopez", "id": 4 }
+        ],
+        "group_task_id": 1,
+        "organization_id": 1
+      },
+      {
+        "id": 5,
+        "title": "Create user authentication API",
+        "desc": "Develop login, registration, and JWT-based authentication APIs.",
+        "status": "To Do",
+        "deadline": "2024-09-25T23:59:00+07:00",
+        "assigned_users": [
+          { "name": "Amanda Foster", "id": 5 }
+        ],
+        "group_task_id": 2,
+        "organization_id": 1
+      },
+      {
+        "id": 6,
+        "title": "Integrate data analytics API",
+        "desc": "Build APIs for capturing user activity and generating analytics data.",
+        "status": "In Progress",
+        "deadline": "2024-09-23T23:59:00+07:00",
+        "assigned_users": [
+          { "name": "Tiffany Hernandez", "id": 6 },
+          { "name": "Blue Linda", "id": 13 }
+        ],
+        "group_task_id": 2,
+        "organization_id": 1
+      },
+      {
+        "id": 7,
+        "title": "Test authentication flow",
+        "desc": "Write and execute test cases for login, registration, and password reset features.",
+        "status": "In Progress",
+        "deadline": "2024-09-30T23:59:00+07:00",
+        "assigned_users": [
+          { "name": "Michael Pierce", "id": 7 }
+        ],
+        "group_task_id": 3,
+        "organization_id": 1
+      },
+      {
+        "id": 8,
+        "title": "Test UI responsiveness",
+        "desc": "Ensure the frontend UI is responsive across various devices and screen sizes.",
+        "status": "To Do",
+        "deadline": "2024-10-05T23:59:00+07:00",
+        "assigned_users": [
+          { "name": "Zachary Bullock", "id": 8 }
+        ],
+        "group_task_id": 3,
+        "organization_id": 1
+      },
+      {
+        "id": 9,
+        "title": "Normalize customer data schema",
+        "desc": "Analyze and normalize the existing customer data schema to reduce redundancy and improve data integrity.",
+        "status": "In Progress",
+        "deadline": "2024-10-15T23:59:00+07:00",
+        "assigned_users": [
+          { "name": "Emma Rodriguez", "id": 9 }
+        ],
+        "group_task_id": 4,
+        "organization_id": 1
+      },
+      {
+        "id": 10,
+        "title": "Design index strategy",
+        "desc": "Develop an efficient indexing strategy for frequently queried columns to optimize query performance.",
+        "status": "To Do",
+        "deadline": "2024-10-20T23:59:00+07:00",
+        "assigned_users": [
+          { "name": "Liam Chen", "id": 10 }
+        ],
+        "group_task_id": 4,
+        "organization_id": 1
+      },
+      {
+        "id": 11,
+        "title": "Implement automated backups",
+        "desc": "Set up and test an automated backup system for all production databases, ensuring data recoverability.",
+        "status": "In Progress",
+        "deadline": "2024-10-10T23:59:00+07:00",
+        "assigned_users": [
+          { "name": "Sophia Patel", "id": 11 }
+        ],
+        "group_task_id": 5,
+        "organization_id": 1
+      },
+      {
+        "id": 12,
+        "title": "Optimize query performance",
+        "desc": "Analyze slow-running queries and implement optimizations to improve overall database performance.",
+        "status": "To Do",
+        "deadline": "2024-10-25T23:59:00+07:00",
+        "assigned_users": [
+          { "name": "Noah Kim", "id": 12 }
+        ],
+        "group_task_id": 5,
+        "organization_id": 1
+      }
+    ],
+  
+    "users": [
+      {
+        "id": 1,
+        "name": "Nicole Lopez",
+        "email": "nicole.lopez@example.com",
+        "role": "Admin",
+        "organization_id": 1,
+        "position": "Lead Frontend Developer",
+        "department": "Product",
+        "joinDate": "2021-03-12T23:59:00+07:00",
+        "profileImage": "/images/nicole-lopez.jpg",
+        "phone": "+1-555-1347"
+      },
+      {
+        "id": 2,
+        "name": "Adrienne Fox",
+        "email": "adrienne.fox@example.com",
+        "role": "Admin",
+        "organization_id": 1,
+        "position": "Senior Frontend Developer",
+        "department": "Design",
+        "joinDate": "2020-07-24T23:59:00+07:00",
+        "profileImage": "/images/adrienne-fox.jpg",
+        "phone": "+1-555-5678"
+      },
+      {
+        "id": 3,
+        "name": "Zachary Garcia",
+        "email": "zachary.garcia@example.com",
+        "role": "Staff",
+        "organization_id": 1,
+        "position": "Frontend Developer",
+        "department": "Engineering",
+        "joinDate": "2022-01-15T23:59:00+07:00",
+        "profileImage": "/images/zachary-garcia.jpg",
+        "phone": "+1-555-8765"
+      },
+      {
+        "id": 4,
+        "name": "Elizabeth Lopez",
+        "email": "elizabeth.lopez@example.com",
+        "role": "Staff",
+        "organization_id": 1,
+        "position": "Junior Frontend Developer",
+        "department": "Marketing",
+        "joinDate": "2021-10-03T23:59:00+07:00",
+        "profileImage": "/images/elizabeth-lopez.jpg",
+        "phone": "+1-555-4321"
+      },
+      {
+        "id": 5,
+        "name": "Amanda Foster",
+        "email": "amanda.foster@example.com",
+        "role": "Staff",
+        "organization_id": 1,
+        "position": "Backend Developer",
+        "department": "Sales",
+        "joinDate": "2022-06-19T23:59:00+07:00",
+        "profileImage": "/images/amanda-foster.jpg",
+        "phone": "+1-555-1928"
+      },
+      {
+        "id": 6,
+        "name": "Tiffany Hernandez",
+        "email": "tiffany.hernandez@example.com",
+        "role": "Staff",
+        "organization_id": 1,
+        "position": "Senior Backend Developer",
+        "department": "Product",
+        "joinDate": "2021-04-14T23:59:00+07:00",
+        "profileImage": "/images/tiffany-hernandez.jpg",
+        "phone": "+1-555-2839"
+      },
+      {
+        "id": 7,
+        "name": "Michael Pierce",
+        "email": "michael.pierce@example.com",
+        "role": "Staff",
+        "organization_id": 1,
+        "position": "QA Engineer",
+        "department": "Design",
+        "joinDate": "2020-11-11T23:59:00+07:00",
+        "profileImage": "/images/michael-pierce.jpg",
+        "phone": "+1-555-3456"
+      },
+      {
+        "id": 8,
+        "name": "Zachary Bullock",
+        "email": "zachary.bullock@example.com",
+        "role": "Staff",
+        "organization_id": 1,
+        "position": "Junior QA Engineer",
+        "department": "Marketing",
+        "joinDate": "2023-02-22T23:59:00+07:00",
+        "profileImage": "/images/zachary-bullock.jpg",
+        "phone": "+1-555-6543"
+      },
+      {
+        "id": 9,
+        "name": "Emma Rodriguez",
+        "email": "emma.rodriguez@example.com",
+        "role": "Staff",
+        "organization_id": 1,
+        "position": "Database Designer",
+        "department": "Sales",
+        "joinDate": "2021-09-05T23:59:00+07:00",
+        "profileImage": "/images/emma-rodriguez.jpg",
+        "phone": "+1-555-9876"
+      },
+      {
+        "id": 10,
+        "name": "Liam Chen",
+        "email": "liam.chen@example.com",
+        "role": "Staff",
+        "organization_id": 1,
+        "position": "Senior Database Designer",
+        "department": "Product",
+        "joinDate": "2020-12-08T23:59:00+07:00",
+        "profileImage": "/images/liam-chen.jpg",
+        "phone": "+1-555-1357"
+      },
+      {
+        "id": 11,
+        "name": "Sophia Patel",
+        "email": "sophia.patel@example.com",
+        "role": "Staff",
+        "organization_id": 1,
+        "position": "Database Administrator",
+        "department": "Design",
+        "joinDate": "2022-05-16T23:59:00+07:00",
+        "profileImage": "/images/sophia-patel.jpg",
+        "phone": "+1-555-2468"
+      },
+      {
+        "id": 12,
+        "name": "Noah Kim",
+        "email": "noah.kim@example.com",
+        "role": "Staff",
+        "organization_id": 1,
+        "position": "Junior Database Administrator",
+        "department": "Marketing",
+        "joinDate": "2021-08-25T23:59:00+07:00",
+        "profileImage": "/images/noah-kim.jpg",
+        "phone": "+1-555-3698"
+      },
+      {
+        "id": 13,
+        "name": "Blue Linda",
+        "email": "blue.linda@example.com",
+        "role": "Staff",
+        "organization_id": 1,
+        "position": "Data Analyst",
+        "department": "Analytics",
+        "joinDate": "2023-08-01T23:59:00+07:00",
+        "profileImage": "/images/blue-linda.jpg",
+        "phone": "+1-555-7890"
+      }
+    ],
+    "organizations": [
+      {
+        "id": 1,
+        "name": "Tech Innovations",
+        "location": "Jakarta, Indonesia",
+        "industry": "Technology",
+        "established": "2015",
+        "employees": 150
+      },
+      {
+        "id": 2,
+        "name": "Creative Solutions",
+        "location": "Bandung, Indonesia",
+        "industry": "Design",
+        "established": "2018",
+        "employees": 50
+      },
+      {
+        "id": 3,
+        "name": "Data Insights",
+        "location": "Surabaya, Indonesia",
+        "industry": "Analytics",
+        "established": "2020",
+        "employees": 30
+      }
+    ]
+  
+}

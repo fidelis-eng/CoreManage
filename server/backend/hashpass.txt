@@ -1,0 +1,42 @@
+package main
+
+import (
+	"fmt"
+
+	"golang.org/x/crypto/bcrypt"
+)
+
+func hashPassword(password string) (string, error) {
+	hashedPassword, err := bcrypt.GenerateFromPassword([]byte(password), bcrypt.DefaultCost)
+	if err != nil {
+		return "", err
+	}
+	return string(hashedPassword), nil
+}
+
+func main() {
+	passwords := []string{
+		"Nicole123",
+		"Adrienne456",
+		"Zachary789",
+		"Elizabeth101",
+		"Amanda202",
+		"Tiffany303",
+		"Michael404",
+		"Zachary505",
+		"Emma606",
+		"Liam707",
+		"Sophia808",
+		"Noah909",
+		"Blue1010",
+	}
+
+	for _, password := range passwords {
+		hashedPassword, err := hashPassword(password)
+		if err != nil {
+			fmt.Printf("Error hashing password %s: %v\n", password, err)
+			continue
+		}
+		fmt.Printf("Original: %s, Hashed: %s\n", password, hashedPassword)
+	}
+}
